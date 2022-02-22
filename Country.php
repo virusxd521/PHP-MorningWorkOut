@@ -19,7 +19,7 @@ class Country
     public function __get($property_name) {
         if($property_name === 'cities'){
             return City::getCitiesForCountry($this->id);
-            var_dump();
+            
         }
     }
 
